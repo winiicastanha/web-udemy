@@ -108,12 +108,67 @@ h2 {
   padding: 5px;
 }
 
-.caixa-conteudo {`
+.caixa-conteudo {
 background: #fff;
 padding: 5px;
 margin-top: 5px;
 }
 
+/* Menu lateral */
+#lateral ul a{
+  font-size:0.9em;
+  padding: 3px;
+  display: block;
+  line-height: 30px;
+  color: #000;
+  text-decoration: none;
+  border-bottom: 1px solid #f3f3f3;
+}
+#lateral ul a:hover {
+  background: #f9f9f9 url(../imagens/marcador.png) no-repeat left center;
+  padding-left: 20px;
+  color: #a1a1a1;
+}
+
+label {
+  display: block;
+  cursor: pointer;
+}
+input {
+  width: 125px;
+  padding: 5px;;
+  font-size: 0.9em;
+  background-color: #fff;
+  border: 1px solid #f5f5f5;
+}
+input.submit{
+  width: 80px;
+  color: #fff;
+  background-color: #b10333;
+  border: 2px solid #870529;
+}
+
+/* imagens */
+img.imagem-principal {
+  border: 3px solid #dfdfdf;
+  width: 98%;
+}
+
+/* cabeçalho */
+h3 {
+  text-transform: uppercase;
+  display: inline;
+  font-size: 0.8em;
+  padding: 3px;
+}
+.destaque h3{
+  background: #b10333;
+  color: #fff; 
+}
+.entrevista h3{
+  background: #de003e;
+  color: #000; 
+}
 
 #container-rodape{
   background: #294c71;
